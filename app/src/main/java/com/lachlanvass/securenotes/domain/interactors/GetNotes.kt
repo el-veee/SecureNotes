@@ -5,8 +5,8 @@ import com.lachlanvass.securenotes.domain.repository.NoteRepository
 
 class GetNotes(private val repository: NoteRepository) {
 
-    suspend operator fun invoke(note: Note) {
+    operator fun invoke(): List<Note?> {
 
-        repository.getNotes()
+        return repository.getNotes()
     }
 }

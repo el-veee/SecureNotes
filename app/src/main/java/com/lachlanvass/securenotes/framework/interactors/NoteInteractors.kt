@@ -4,11 +4,8 @@ import com.lachlanvass.securenotes.domain.interactors.AddNote
 import com.lachlanvass.securenotes.domain.interactors.DeleteNote
 import com.lachlanvass.securenotes.domain.interactors.GetNotes
 
-data class Interactors(
+data class NoteInteractors(
     val getNotes: GetNotes,
     val addNote: AddNote,
     val deleteNote: DeleteNote
-) {
-
-
-}
+)
