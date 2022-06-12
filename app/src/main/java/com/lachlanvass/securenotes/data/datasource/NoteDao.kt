@@ -1,4 +1,4 @@
-package com.lachlanvass.securenotes.data
+package com.lachlanvass.securenotes.data.datasource
 
 import androidx.room.*
 import com.lachlanvass.securenotes.domain.model.Note
